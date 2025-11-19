@@ -1,15 +1,3 @@
-Absolutely — here is a clean, well-structured **README.md** you can put directly into your GitHub project.
-It includes:
-✔ Project overview
-✔ Features
-✔ Hardware list
-✔ Wiring diagram (ASCII + tables)
-✔ Setup instructions
-✔ Code structure
-✔ Future improvements
-✔ License section
-
-You can copy–paste this as **README.md**.
 
 ---
 
@@ -60,6 +48,8 @@ Further stages include continuous monitoring + Blynk + GPS tracking.
 
 ## 🔌 Wiring Diagram
 
+![Wiring Diagram for the Safety Monitoring System](saftey_project.png)
+
 ### **📡 TTGO T-Call ESP32 Pin Mapping**
 
 ### 🩺 Pulse Sensor (HW-827)
@@ -94,17 +84,7 @@ Further stages include continuous monitoring + Blynk + GPS tracking.
 
 ---
 
-### 📲 SIM800L (Already wired on TTGO board)
 
-| Signal          | TTGO Pin |
-| --------------- | -------- |
-| SIM TX → ESP RX | GPIO 26  |
-| SIM RX ← ESP TX | GPIO 27  |
-| PWRKEY          | GPIO 4   |
-| RESET           | GPIO 5   |
-| POWER_ON        | GPIO 23  |
-
----
 
 ## 🖥 ASCII Wiring Block Diagram
 
@@ -122,10 +102,7 @@ Further stages include continuous monitoring + Blynk + GPS tracking.
  GND ---------+---- GND (ALL MODULES)          |
               |  GPS TX ---> GPIO34 (RX2)      |
               |  GPS RX <--- GPIO25 (TX2)      |
-              |                                |
-              |  SIM800 TX ---> GPIO26         |
-              |  SIM800 RX <--- GPIO27         |
-              |  PWRKEY ---> GPIO4             |
+              |              |
               +---------------------------+
 ```
 
@@ -215,5 +192,3 @@ Sending SMS...
 MIT License — feel free to use, modify, distribute.
 
 ---
-
-
