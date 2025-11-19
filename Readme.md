@@ -48,7 +48,7 @@ Further stages include continuous monitoring + Blynk + GPS tracking.
 
 ## 🔌 Wiring Diagram
 
-![Wiring Diagram for the Safety Monitoring System](saftey_project.png)
+![Wiring Diagram for the Safety Monitoring System](wiring-diagram.png)
 
 ### **📡 TTGO T-Call ESP32 Pin Mapping**
 
